@@ -1,0 +1,72 @@
+{
+  "fields": [
+    {
+      "ffField": {
+        "spec": {
+          "page": 1,
+          "text": "Member Name"
+        }
+      }
+    },
+    {
+      "slField": {
+        "spec": {
+          "page": 1,
+          "text": "Do you have any allergies?",
+          "options": [
+            {
+              "text": "Yes",
+              "needsExplanation": true
+            },
+            {
+              "text": "No"
+            }
+          ]
+        }
+      },
+      "readableName": "Substance Abuse"
+    },
+    {
+      "nestedSlField": {
+        "spec": {
+          "page": 2,
+          "text": "In the last 2 years have you been treated for",
+          "subFieldSpecs": [
+            {
+              "text": "Falls",
+              "options": [
+                {
+                  "text": "Yes",
+                  "needsExplanation": true
+                },
+                {
+                  "text": "No"
+                }
+              ]
+            },
+            {
+              "text": "Heart or Lung Disease",
+              "options": [
+                {
+                  "text": "Yes",
+                  "needsExplanation": true
+                },
+                {
+                  "text": "No"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "signField": {
+        "spec": {
+          "page": 3,
+          "text": "Signature"
+        }
+      }
+    }
+  ]
+}

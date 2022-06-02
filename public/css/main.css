@@ -1,0 +1,32 @@
+.hidden {
+  display: none;
+}
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.navbar {
+  padding: 0 !important;
+  min-height: 75px;
+}
+
+.navbar-nav .nav-link {
+  padding: 0 !important;
+}
+
+.text-label {
+  margin-bottom: 10px;
+}
+
+.step-2 {
+  text-align: left;
+}
+
+.kbw-signature { width: 260px; height: 200px; border: 1px dashed gray;}
+
+#signature-pad canvas{ width: 100% !important; height: auto; background: #fff;}
+
+.multiselect {
+  margin-left: 10px;
+}

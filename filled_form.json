@@ -1,0 +1,87 @@
+{
+  "fields": [
+    {
+      "ffField": {
+        "spec": {
+          "page": 1,
+          "text": "Member Name"
+        },
+        "text": "John Doe"
+      }
+    },
+    {
+      "slField": {
+        "spec": {
+          "page": 1,
+          "text": "Do you have any allergies?",
+          "options": [
+            {
+              "text": "Yes",
+              "needsExplanation": true
+            },
+            {
+              "text": "No"
+            }
+          ]
+        },
+        "selection": {
+          "index": 0,
+          "explanation": "allergic to shellfish"
+        }
+      },
+      "readableName": "Substance Abuse"
+    },
+    {
+      "nestedSlField": {
+        "spec": {
+          "page": 2,
+          "text": "In the last 2 years have you been treated for",
+          "subFieldSpecs": [
+            {
+              "text": "Falls",
+              "options": [
+                {
+                  "text": "Yes",
+                  "needsExplanation": true
+                },
+                {
+                  "text": "No"
+                }
+              ]
+            },
+            {
+              "text": "Heart or Lung Disease",
+              "options": [
+                {
+                  "text": "Yes",
+                  "needsExplanation": true
+                },
+                {
+                  "text": "No"
+                }
+              ]
+            }
+          ]
+        },
+        "sub_field_selections": [
+          {
+            "index": 0,
+            "explanation": "Slipped and fell. Nothing serious"
+          },
+          {
+            "index": 1
+          }
+        ]
+      }
+    },
+    {
+      "signField": {
+        "spec": {
+          "page": 3,
+          "text": "Signature"
+        },
+        "signature_base64": "insert base64 png image"
+      }
+    }
+  ]
+}
